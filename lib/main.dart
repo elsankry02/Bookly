@@ -1,9 +1,9 @@
 import 'package:bookly/app.dart';
 import 'package:flutter/material.dart';
 
-import 'constant/service_locator_manger.dart';
+import 'core/service_locator.dart';
 
 void main() {
-  serviceLocatorManger();
+  serviceLocator();
   runApp(const Bookly());
 }

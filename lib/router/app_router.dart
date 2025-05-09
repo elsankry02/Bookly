@@ -2,7 +2,7 @@ import '../model/item_newset_model.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:go_router/go_router.dart';
 
-import '../constant/service_locator_manger.dart';
+import '../core/service_locator.dart';
 import '../data/manger/smila_books_cubit/similar_books_cubit.dart';
 import '../data/repos/home_repo_impl.dart';
 import '../views/Splash/splash_view.dart';

@@ -2,7 +2,7 @@ import '../../model/item_newset_model.dart';
 import 'package:flutter/material.dart';
 
 import '../../components/custom_button.dart';
-import '../../constant/launch_url.dart';
+import '../../core/launch_url.dart';
 
 class BooksAction extends StatelessWidget {
   const BooksAction({super.key, required this.bookModel});

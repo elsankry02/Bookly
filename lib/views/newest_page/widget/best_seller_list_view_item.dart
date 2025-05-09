@@ -1,11 +1,11 @@
-import '../../../model/item_newset_model.dart';
+import 'package:bookly/constant/string_manger.dart';
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 
 import '../../../components/custom_book_image.dart';
 import '../../../components/custom_book_rating.dart';
-import '../../../constant/constants.dart';
 import '../../../constant/styles_manger.dart';
+import '../../../model/item_newset_model.dart';
 import '../../../router/app_router.dart';
 
 class BookListViewItem extends StatelessWidget {
@@ -41,7 +41,7 @@ class BookListViewItem extends StatelessWidget {
                       maxLines: 2,
                       overflow: TextOverflow.ellipsis,
                       style: StylesManger.textStyle20.copyWith(
-                        fontFamily: kGtSectraFine,
+                        fontFamily: StringManger.kGtSectraFine,
                       ),
                     ),
                   ),

@@ -1,5 +1,5 @@
-import 'package:bookly/constant/constants.dart';
-import 'package:bookly/constant/service_locator_manger.dart';
+import 'package:bookly/constant/color_manger.dart';
+import 'package:bookly/core/service_locator.dart';
 import 'package:bookly/data/manger/featured_books_cubit/featured_books_cubit.dart';
 import 'package:bookly/data/manger/newest_books_cubit/newset_books_cubit.dart';
 import 'package:bookly/data/repos/home_repo_impl.dart';
@@ -30,7 +30,7 @@ class Bookly extends StatelessWidget {
         routerConfig: AppRouter.router,
         debugShowCheckedModeBanner: false,
         theme: ThemeData.dark().copyWith(
-          scaffoldBackgroundColor: kPrimaryColor,
+          scaffoldBackgroundColor: ColorManger.kPrimaryColor,
           textTheme:
               GoogleFonts.montserratTextTheme(ThemeData.dark().textTheme),
         ),

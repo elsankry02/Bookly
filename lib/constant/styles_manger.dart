@@ -1,6 +1,5 @@
+import 'package:bookly/constant/string_manger.dart';
 import 'package:flutter/cupertino.dart';
-
-import 'constants.dart';
 
 class StylesManger {
   static const textStyle18 = TextStyle(
@@ -14,7 +13,7 @@ class StylesManger {
   static const textStyle30 = TextStyle(
     fontSize: 30,
     fontWeight: FontWeight.w900,
-    fontFamily: kGtSectraFine,
+    fontFamily: StringManger.kGtSectraFine,
     letterSpacing: 1.2,
   );
   static const textStyle14 = TextStyle(
@@ -27,5 +26,3 @@ class StylesManger {
     fontWeight: FontWeight.w500,
   );
 }
-
-const TextStyle textStyle = TextStyle();
